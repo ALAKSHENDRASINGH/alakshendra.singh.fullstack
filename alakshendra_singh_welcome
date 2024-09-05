@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Shopping Cart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .welcome-container {
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #5cb85c;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        a:hover {
+            background-color: #4cae4c;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links a {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h1>Welcome to Our Shopping Cart</h1>
+        <p>Enjoy seamless shopping with us. Browse our products, add items to your cart, and checkout with ease.</p>
+        <a href="/products">Start Shopping</a>
+        <div class="links">
+            <a href="/login">Login</a>
+            <a href="/signup">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>
